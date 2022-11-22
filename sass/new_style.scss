@@ -1,0 +1,183 @@
+$color-hover: #f8fafc;
+
+@mixin hover-text {
+   color: $color-hover;
+   transition: ease 0.5s;
+}
+
+@mixin font {
+   font-family: 'Outfit';
+   font-style: normal;
+   font-weight: 400;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   box-sizing: border-box;
+}
+
+// Phần tiêu đề
+
+.header {
+   text-align: center;
+
+   .slogan h1 {
+      color: #2d3958;
+      font-weight: 500;
+      font-size: 48px;
+      line-height: 56px;
+      margin: 70px 0 25px 0;
+
+      text-shadow: 1px 1px #f8fafc, -1px 1px #f8fafc, -1px -1px #f8fafc, 1px -1px #f8fafc, 2px 2px 5px #61606b;
+      font-family: 'Outfit', sans-serif;
+   }
+
+   .slogan p {
+      color: #7b88a8;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 28px;
+      margin-bottom: 30px;
+      font-family: DM Sans;
+      text-shadow: 1px 1px #f8fafc, -1px 1px #f8fafc, -1px -1px #f8fafc, 1px -1px #f8fafc, 2px 2px 5px #61606b;
+   }
+}
+
+.team_member {
+   gap: 12px;
+   padding: 15px 10px;
+   border-radius: 7px;
+   flex-direction: row;
+   align-items: center;
+   display: inline-flex;
+   box-shadow: 1px 5px 5px 5px #cac7df;
+
+   .fm {
+      margin-right: 12px;
+      margin-left: 12px;
+      display: inline;
+      padding: 5px 7px 7px 5px;
+      border-radius: 4px;
+      color: #7b88a8;
+   }
+
+   .fm:hover {
+      cursor: pointer;
+      color: $color-hover;
+      transition: all 1s;
+      background-color: #886cff;
+   }
+
+   .test::after {
+      content: '';
+      width: 1px;
+      height: 20px;
+      left: 24px;
+      position: relative;
+      border-left: 1px solid #e7e5ea;
+   }
+}
+
+.main {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   width: 100%;
+   margin-top: 58px;
+
+   .personal {
+      width: 370px;
+      height: 584px;
+      border-radius: 7px;
+      box-shadow: 1px 5px 5px 5px #cac7df;
+      text-align: center;
+      margin: 0 19px 37px 19px;
+   }
+   .personal:hover {
+      background-color: #886cff;
+      color: #fff;
+      transition: ease 0.5s;
+   }
+}
+
+.price {
+   margin: 35px 24px 30px 24px;
+}
+.price h2 {
+   font-style: normal;
+   font-weight: 600;
+   font-size: 18px;
+   line-height: 28px;
+   color: #7b88a8;
+   margin-bottom: 20px;
+}
+
+.price h3 {
+   font-size: 27px;
+   line-height: 46px;
+   color: #2d3958;
+   @include font();
+}
+.price .price-number {
+   font-size: 55px;
+   font-weight: 600;
+   margin-bottom: 10px;
+}
+
+.price p {
+   font-size: 16px;
+   color: #696871;
+   line-height: 26px;
+   font-family: 'DM Sans';
+   @include font();
+}
+
+.price button {
+   cursor: pointer;
+   align-items: center;
+   justify-content: center;
+
+   height: 48px;
+   width: 240px;
+   margin-top: 37px;
+   margin-bottom: 20px;
+   border-radius: 7px;
+
+   color: #fff;
+   background-color: #886cff;
+}
+
+.items .items-text {
+   display: flex;
+   margin-left: 40px;
+   margin-bottom: 18px;
+}
+
+.items .items-text p {
+   color: #2d3958;
+   margin-left: 13px;
+   font-size: 22px;
+   line-height: 32px;
+   @include font();
+}
+.main :hover,
+.item-inform:hover h2,
+.item-inform:hover h3,
+.item-inform:hover p {
+   @include hover-text();
+}
+
+.item-inform:hover button {
+   color: #886cff;
+   transition: ease 0.5s;
+   background-color: $color-hover;
+}
+
+.item-inform:hover img {
+   border-radius: 50%;
+   background-color: #f8fafc;
+}

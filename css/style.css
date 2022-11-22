@@ -1,0 +1,206 @@
+/* * {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   box-sizing: border-box;
+}
+
+.header {
+   width: 100%;
+   height: 240px;
+}
+
+.slogan > h1,
+p {
+   text-align: center;
+   color: #696871;
+}
+.slogan > h1 {
+   font-size: 35px;
+   margin: 120px 0 25px 0;
+   color: #2d3958;
+   text-shadow: 1px 1px #f8fafc, -1px 1px #f8fafc, -1px -1px #f8fafc, 1px -1px #f8fafc, 2px 2px 5px #61606b;
+   font-family: 'Outfit', sans-serif;
+}
+
+.slogan > p {
+   color: #7b88a8;
+   font-weight: 300;
+   font-size: 18px;
+   line-height: 28px;
+   text-align: center;
+   font-family: DM Sans;
+   text-shadow: 1px 1px #f8fafc, -1px 1px #f8fafc, -1px -1px #f8fafc, 1px -1px #f8fafc, 2px 2px 5px #61606b;
+}
+.team_members {
+   display: flex;
+   justify-content: center;
+}
+.team_member {
+   padding: 15px 10px;
+   text-align: center;
+   margin-top: 60px;
+   box-shadow: 1px 1px 5px 5px #cac7df;
+   border-radius: 4px;
+   box-sizing: border-box;
+}
+
+.fm {
+   margin-right: 12px;
+   margin-left: 12px;
+   display: inline;
+   padding: 5px 7px 7px 5px;
+   border-radius: 4px;
+   color: #7b88a8;
+}
+
+.test::after {
+   content: '';
+   position: relative;
+   left: 23px;
+   border-left: 1px solid #e7e5ea;
+   height: 20px;
+   width: 1px;
+}
+
+.fm:hover {
+   background-color: #886cff;
+   cursor: pointer;
+   color: #f8fafc;
+   transition: all 1s;
+}
+
+
+
+
+
+
+
+
+.personal {
+   width: 370px;
+   height: 584px;
+   border-radius: 7px;
+   box-shadow: 1px 1px 5px 5px #cac7df;
+}
+
+.personal > .price > h3 {
+   text-align: center;
+   padding: 35px;
+   color: #7b88a8;
+   height: 28px;
+   font-size: 22px;
+}
+
+.price-number {
+   font-size: 55px;
+}
+
+.personal > .price > h1 {
+   text-align: center;
+   font-size: 35px;
+   margin-top: 25px;
+   opacity: 0.7;
+}
+
+.personal > .price > button {
+   position: relative;
+   background-color: #886cff;
+   height: 48px;
+   width: 292px;
+   border-radius: 5px;
+   left: 37px;
+   margin: 30px 0 40px 0;
+   color: #f8fafc;
+}
+
+.items {
+   margin: 0 34px 73px 32px;
+}
+
+.items-text {
+   margin: 15px 0 15px 0;
+   height: 32px;
+   font-family: 'Outfit';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 32px;
+}
+
+.items-text > h7 {
+   position: relative;
+   bottom: 8px;
+   margin-left: 5px;
+   color: #2d3958;
+   font-size: 20px;
+   line-height: 32px;
+}
+
+.main {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   width: 100%;
+   margin-top: 35px;
+   align-items: center;
+}
+.item-inform:hover h3 {
+   color: #f8fafc;
+}
+
+.main :hover {
+   color: #f8fafc;
+   border-radius: 5px;
+   
+}
+
+.item-inform:hover {
+   background-color: #886cff;
+}
+
+.item-inform:hover button {
+   background-color: #f8fafc;
+   color: #886cff;
+   cursor: pointer;
+}
+
+.item-inform:hover img {
+   background-color: #cac7df;
+   border-radius: 50%;
+}
+
+.item-inform:hover p {
+   color: #f7f6fc;
+}
+
+.wrap-price-table {
+   margin-bottom: 25px;
+   margin-left: 15px;
+   margin-right: 15px;
+}
+
+ .items > .items-text > span {
+   justify-content: flex-start;
+   justify-items: flex-start;
+   text-justify: distribute;
+} 
+
+ @media screen and (max-width: 595px) {
+   .team_member {
+      position: relative;
+      margin-top: 35px;
+   }
+   .header {
+      position: relative;
+   }
+}
+
+@media screen and (max-width: 340px) {
+   .main {
+      margin-top: 25px;
+      position: relative;
+   }
+}  */
